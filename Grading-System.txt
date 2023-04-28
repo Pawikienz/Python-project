@@ -1,0 +1,360 @@
+package com.mycompany.gradingsystemfinal;
+import java.time.LocalDate;
+import java.util.Scanner;
+public class GradingSystemFinal {
+    
+    public static void main(String[] args) {
+        Grading();
+    }
+        
+        static void Grading(){
+            Scanner enter = new Scanner(System.in);
+         int chooseName;
+      
+        while (true){
+            System.out.println("----- GRADING SYSTEM -----");
+            System.out.println("----- MATHEMATICS SUBJECT -----");
+            System.out.println("1. Section Explorer");
+            System.out.println("2. Section Achiever");
+            System.out.println("3. Exit");
+            
+            System.out.println(""); 
+            
+            while (true){
+                try{
+                    System.out.println("Choose a Section");
+                    int chooseSection = enter.nextInt();
+                    System.out.println(" ");
+                    
+                    while (true){
+                        try{
+                        if (chooseSection == 1){
+                        System.out.println("Section Explorer");
+                        System.out.println("1. Abejo, Jhon");
+                        System.out.println("2. Ajonan, Janny");
+                        System.out.println("3. Bongay, Eddie");
+                        System.out.println("4. Baguio, Marnel");
+                        System.out.println("5. Fabricante, Glaude");
+                        System.out.println("6. Ablon, April");
+                        System.out.println("7. Butchayo, Kriste Anne");
+                        System.out.println("8. Labalan, Lendie");
+                        System.out.println("9. Macapayag,Mary Loui ");
+                        System.out.println("10. Paigna, Lovely Mae");
+                        System.out.println("11. Exit");
+                        System.out.println(" ");
+
+                            System.out.println("Student No.");
+                            chooseName = enter.nextInt();
+
+                                switch (chooseName){
+
+                                    case 1:
+                                        System.out.println("Student Name: ABEJO, JHON");
+                                        System.out.println(" ");
+                                        calculation();
+                                        break;
+
+
+                                    case 2:
+                                        System.out.println("Student Name: AJONAN, JANNY");
+                                        System.out.println(" ");
+                                        calculation();
+                                        break;
+
+
+
+                                    case 3:
+                                        System.out.println("Student Name: BONGGAY, EDDIE");
+                                        System.out.println(" ");
+                                        calculation();
+                                        break;
+
+                                    case 4:
+                                        System.out.println("Student Name: BAGUIO, MARNEL");
+                                        System.out.println(" ");
+                                        calculation();
+                                        break;
+
+                                    case 5:
+                                        System.out.println("Student Name: FABRICANTE, GLAUDE ");
+                                        System.out.println(" ");
+                                        calculation();
+                                        break;
+
+                                    case 6:
+                                        System.out.println("Student Name: ABLON, APRIL");
+                                        System.out.println(" ");
+                                        calculation();
+                                        break;
+
+                                    case 7:
+                                        System.out.println("Student Name: BUTCHAYO, KRISTE ANNE");
+                                        System.out.println(" ");
+                                        calculation();
+                                        break;
+
+                                    case 8:
+                                        System.out.println("Student Name: LABALAN, LENDIE");
+                                        System.out.println(" ");
+                                        calculation();
+                                        break;
+
+                                    case 9:
+                                        System.out.println("Student Name: MACAPAYAG, MARY LOUI");
+                                        System.out.println(" ");
+                                        calculation();
+                                        break;
+
+                                    case 10:
+                                        System.out.println("Student Name: PAIGNA, LOVELY MAE");
+                                        System.out.println(" ");
+                                       calculation();
+                                        break;
+
+                                    case 11:
+                                        System.exit(0);
+
+                                    default:
+                                        System.out.println("Student Does Not Exist");
+                                }   
+
+                            }
+                            else if (chooseSection == 2){
+                            System.out.println("Section Achiever");
+                            System.out.println("1. Felecitas, Ian Jefferson");
+                            System.out.println("2. Jacalan, John Michael");
+                            System.out.println("3. Magadan, Ian Jilou");
+                            System.out.println("4. Manlosa, Christian");
+                            System.out.println("5. Nob, Glen");
+                            System.out.println("6. Abriol, Jenny");
+                            System.out.println("7. Acusar, Aika");
+                            System.out.println("8. Palasan, Loida");
+                            System.out.println("9. Racines, Mary Grace");
+                            System.out.println("10. Yana, Leslie");
+                            System.out.println("11. Exit");
+                            System.out.println(" ");
+                            chooseName = enter.nextInt();
+
+                                switch (chooseName){
+                                    case 1:
+                                        System.out.println("Student Name: FELECITAS, IAN JEFFERSON");
+                                        System.out.println(" ");
+                                        calculation();
+                                        break;
+
+                                    case 2:
+                                        System.out.println("Student Name: JACALAN, JOHN MICHAEL");
+                                        System.out.println(" ");
+                                        calculation();
+                                        break;
+
+                                    case 3:
+                                        System.out.println("Student Name: MAGADAN, IAN JILOU");
+                                        System.out.println(" ");
+                                        calculation();
+                                        break;
+
+                                    case 4:
+                                        System.out.println("Student Name: MANLOSA, CHRISTIAN");
+                                        System.out.println(" ");
+                                        calculation();
+                                        break;
+
+                                    case 5:
+                                        System.out.println("Student Name: NOB, GLEN");
+                                        System.out.println(" ");
+                                        calculation();
+                                        break;
+
+                                    case 6:
+                                        System.out.println("Student Name: ABRIOL, JENNY");
+                                        System.out.println(" ");
+                                        calculation();
+                                        break;
+
+                                    case 7:
+                                        System.out.println("Student Name: ACUSAR, AIKA");
+                                        System.out.println(" ");
+                                        calculation();
+                                        break;
+
+                                    case 8:
+                                        System.out.println("Student Name: PALASAN, LOIDA");
+                                        System.out.println(" ");
+                                        calculation();
+                                        break;
+
+                                    case 9:
+                                        System.out.println("Student Name: RACINES, MARY GRACE");
+                                        System.out.println(" ");
+                                        calculation();
+                                        break;
+
+                                    case 10:
+                                        System.out.println("Student Name: YANA, LESLIE");
+                                        System.out.println(" ");
+                                        calculation();
+                                        break;
+                                    case 11:
+                                        System.exit(0);
+                                    default:
+                                        System.out.println("Student Does Not Exist");
+                            }
+                        }
+
+                            else if (chooseSection==3){
+                            System.exit(0);
+                            }
+                        else{
+                                System.out.print("");
+                                System.out.println("Section Does Not Exist");
+                                System.out.println("Choose From Number given");
+                                System.out.println("");
+                                break;
+                            }
+                        }
+                        catch (Exception e){
+                            System.out.println("");
+                            System.out.println("Invalid Input");
+                            System.out.println("Choose From The Given Number");
+                            System.out.println(" ");
+                            enter.next();
+                                }   
+                            }
+                        }
+                        catch (Exception e){
+                            enter.next();
+                
+                }
+            }
+        }
+    }   
+        
+    
+    static void calculation(){
+        
+        Scanner enter = new Scanner(System.in);
+        LocalDate today = LocalDate.now();
+        
+        
+        double totalFirstWritten,totalSecondWritten, totalThirdWritten, totalFourthWritten;
+        double scoreFirstWritten, scoreSecondWritten, scoreThirdWritten, scoreFourthWritten;
+        double totalFirstPerformance,totalSecondPerformance, totalThirdPerformance, totalFourthPerformance;
+        double scoreFirstPerformance, scoreSecondPerformance, scoreThirdPerformance, scoreFourthPerformance;
+        double totalFirstAssesment,totalSecondAssesment, totalThirdAssesment, totalFourthAssesment;
+        double scoreFirstAssesment, scoreSecondAssesment, scoreThirdAssesment, scoreFourthAssesment;
+        double firstWrittenGrade, secondWrittenGrade, thirdWrittenGrade, fourthWrittenGrade;
+        double firstPerformanceGrade, secondPerformanceGrade, thirdPerformanceGrade, fourthPerformanceGrade;
+        double firstAssesmentGrade, secondAssesmentGrade, thirdAssesmentGrade, fourthAssesmentGrade;
+        double firstGrading;
+        double secondGrading;
+        double thirdGrading;
+        double fourthGrading;
+        double averageGrade;
+        
+        
+        System.out.println("First Grading Period");
+        System.out.println("Enter Written Works Total Points: ");
+        totalFirstWritten = enter.nextDouble();
+        System.out.println("Enter Written Works Total Score: ");
+        scoreFirstWritten = enter.nextDouble();
+        System.out.println("Enter Performance Task Total Points: ");
+        totalFirstPerformance = enter.nextDouble();
+        System.out.println("Enter Performance Task Total Score: ");
+        scoreFirstPerformance = enter.nextDouble();
+        System.out.println("Enter Quarterly Assesment Total Points: ");
+        totalFirstAssesment = enter.nextDouble();
+        System.out.println("Enter Quarterly Assesment Total Score: ");
+        scoreFirstAssesment = enter.nextDouble();
+        System.out.println(" ");
+
+        System.out.println("Second Grading Period");
+        System.out.println("Enter Written Works Total Points: ");
+        totalSecondWritten = enter.nextDouble();
+        System.out.println("Enter Written Works Total Score: ");
+        scoreSecondWritten = enter.nextDouble();
+        System.out.println("Enter Performance Task Total Points: ");
+        totalSecondPerformance = enter.nextDouble();
+        System.out.println("Enter Performance Task Total Score: ");
+        scoreSecondPerformance = enter.nextDouble();
+        System.out.println("Enter Quarterly Assesment Total Points: ");
+        totalSecondAssesment = enter.nextDouble();
+        System.out.println("Enter Quarterly Assesment Total Score: ");
+        scoreSecondAssesment = enter.nextDouble();
+        System.out.println(" ");
+
+        System.out.println("Third Grading Period");
+        System.out.println("Enter Written Works Total Points: ");
+        totalThirdWritten = enter.nextDouble();
+        System.out.println("Enter Written Works Total Score: ");
+        scoreThirdWritten = enter.nextDouble();
+        System.out.println("Enter Performance Task Total Points: ");
+        totalThirdPerformance = enter.nextDouble();
+        System.out.println("Enter Performance Task Total Score: ");
+        scoreThirdPerformance = enter.nextDouble();
+        System.out.println("Enter Quarterly Assesment Total Points: ");
+        totalThirdAssesment = enter.nextDouble();
+        System.out.println("Enter Quarterly Assesment Total Score: ");
+        scoreThirdAssesment = enter.nextDouble();
+        System.out.println(" ");
+
+        System.out.println("Fourth Grading Period");
+        System.out.println("Enter Written Works Total Points: ");
+        totalFourthWritten = enter.nextDouble();
+        System.out.println("Enter Written Works Total Score: ");
+        scoreFourthWritten = enter.nextDouble();
+        System.out.println("Enter Performance Task Total Points: ");
+        totalFourthPerformance = enter.nextDouble();
+        System.out.println("Enter Performance Task Total Score: ");
+        scoreFourthPerformance = enter.nextDouble();
+        System.out.println("Enter Quarterly Assesment Total Points: ");
+        totalFourthAssesment = enter.nextDouble();
+        System.out.println("Enter Quarterly Assesment Total Score: ");
+        scoreFourthAssesment = enter.nextDouble();
+        System.out.println(" ");
+
+        firstWrittenGrade = (scoreFirstWritten/totalFirstWritten)*100;
+        secondWrittenGrade = (scoreSecondWritten/totalSecondWritten)*100;
+        thirdWrittenGrade = (scoreThirdWritten/totalThirdWritten)*100;
+        fourthWrittenGrade = (scoreFourthWritten/totalFourthWritten)*100;
+
+        firstPerformanceGrade = (scoreFirstPerformance/totalFirstPerformance)*100;
+        secondPerformanceGrade = (scoreSecondPerformance/totalSecondPerformance)*100;
+        thirdPerformanceGrade = (scoreThirdPerformance/totalThirdPerformance)*100;
+        fourthPerformanceGrade = (scoreFourthPerformance/totalFourthPerformance)*100;
+
+        firstAssesmentGrade = (scoreFirstAssesment/totalFirstAssesment)*100;
+        secondAssesmentGrade = (scoreSecondAssesment/totalSecondAssesment)*100;
+        thirdAssesmentGrade = (scoreThirdAssesment/totalThirdAssesment)*100;
+        fourthAssesmentGrade = (scoreFourthAssesment/totalFourthAssesment)*100;
+
+        firstGrading = ((firstWrittenGrade * 0.40) + (firstPerformanceGrade * 0.40) + (firstAssesmentGrade * 0.20));
+        secondGrading = ((secondWrittenGrade * 0.40) + (secondPerformanceGrade * 0.40) + (secondAssesmentGrade * 0.20));
+        thirdGrading = ((thirdWrittenGrade * 0.40) + (thirdPerformanceGrade * 0.40) + (thirdAssesmentGrade * 0.20));
+        fourthGrading = ((fourthWrittenGrade * 0.40) + (fourthPerformanceGrade * 0.40) + (fourthAssesmentGrade * 0.20));
+        
+        System.out.println(today);
+        System.out.println("Your Grade in First Grading is: " + String.format("%.2f", firstGrading));
+        System.out.println("Your Grade in Second Grading is: " + String.format("%.2f", secondGrading));
+        System.out.println("Your Grade in Third Grading is: " + String.format("%.2f", thirdGrading));
+        System.out.println("Your Grade in Fourth Grading is: " + String.format("%.2f", fourthGrading));
+
+        averageGrade = ((firstGrading + secondGrading + thirdGrading + fourthGrading)/4);
+        System.out.println("Your Average Grade is: " + String.format("%.2f", averageGrade));
+        System.out.println(" ");
+        
+        System.out.println("1. CONTINUE");
+        System.out.println("2. EXIT");
+        int option = enter.nextInt();
+        
+        if (option== 1){
+            Grading();
+        }
+        
+        else{
+        System.out.println("Goodbye");
+        System.exit(0);
+        
+        }      
+    }
+}
